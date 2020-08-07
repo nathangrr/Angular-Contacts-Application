@@ -1,5 +1,5 @@
 Web application to create and store user information.
-Fill out the template driven form to add a user to the web page. The infomration must pass a validation before being submitted. Project created with Angular and bootsrap.
+Fill out the template driven form to add a user to the web page. The information must pass a validation before being submitted. Project created with Angular and bootsrap.
 
 Future changes will add the user information to Firebase. I will also add an option to add user data locally.
 
