@@ -10,6 +10,7 @@ import {User} from '../../Models/user';
 export class UserComponent implements OnInit{
     // Properties
     users: User[];
+    user: User;
 
     // Methods
     constructor(){
@@ -17,6 +18,10 @@ export class UserComponent implements OnInit{
     }
 
     ngOnInit(){
-
+        this.user={
+            firstName:'John',
+            lastName: 'Schaf',
+            email: 'john@yahoo.com'
+        }
     }
 }
